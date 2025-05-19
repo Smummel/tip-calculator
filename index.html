@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,26 +19,31 @@
         <input id="service" type="range" min="0" max="2" step="0.1">
         <p>Order accuracy</p>
         <input id="accuracy" type="range" min="0" max="1" step="0.1" value="1">
-        <p>Wait time</p>
-        <input id="wait" type="range" min="0" max="10" step=".5" value="0">
+        <p>Order speed</p>
+        <input id="speed" type="range" min="0.5" max="1.5" step=".1" value="1">
         <p>Cleanliness</p>
-        <input id="tastiness" type="range" min="0" max="2" step="0.1">
+        <input id="cleanliness" type="range" min="0" max="2" step="0.1">
+        <p>How generous you feel today</p>
+        <input id="generousity" type="range" min="0" max="2" step=".1">
         <p>"I could make this at home" level</p>
-        <input id="makeathome" type="range" min="0" max="2" step="0.1">
+        <input id="makeathome" type="range" min="0" max="1" step="0.1">
         <p>Server attractiveness</p>
-        <input id="attractiveness" type="range" min="0" max="2" step="0.1">
+        <input id="attractiveness" type="range" min=".75" max="1.25" step=".05">
         <p>Instagrammability</p>
-        <input id="Instagrammability" type="range" min="0" max="2" step="0.1">
+        <input id="instagrammability" type="range" min="0" max="2" step="0.1">
         <p>You're rich and you know it</p>
-        <input id="richness" type="range" min="1" max="11" step="10" value="0">
+        <input id="rich" type="range" min="0" max="2" step="2" value="0">
         <p>Are you trying to impress a date?</p>
-        <input id="tastiness" type="range" min="0" max="1" step="1" value="0">
-        <p>Utensils allignment</p>
-        <input id="alignment" type="range" min="0" max="2" step="0.1">
+        <input id="impress" type="range" min="1" max="1.5" step=".5" value="1">
+        <p>Utensils alignment</p>
+        <input id="alignment" type="range" min=".75" max="1.25" step="0.1" value="1">
         <p>Table is a prime number</p>
         <input id="prime" type="range" min="0" max="2" step="2" value="0">
-        <p>You secretely hope the sever thinks you're cool</p>
-        <input id="cool" type="range" min="0" max="1" step="0.1">
+        <p>You secretely hope the server thinks you're cool</p>
+        <input id="cool" type="range" min=".75" max="1.25" step="0.1">
+        <p>You should tip:</p>
+        <div id="total">0</div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

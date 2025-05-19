@@ -43,3 +43,15 @@ input{
     border: 2px solid;
     border-radius: 10px;
 }
+#total{
+    height: 50px;
+    width: 150px;
+    outline: 3px solid;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 3rem;
+}
